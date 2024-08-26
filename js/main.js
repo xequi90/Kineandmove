@@ -1,6 +1,6 @@
 
 var peso  = (prompt("Ingrese su peso en KG"))
-var altura = (prompt("Ingrese su altura"))
+var altura = (prompt("Ingrese su altura (Ejemplo 1.50, 1.65, etc.)"))
 
 var imc = (peso / (altura * altura)).toFixed(1)
 
